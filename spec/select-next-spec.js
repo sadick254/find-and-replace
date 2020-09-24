@@ -4,7 +4,7 @@ const path = require('path');
 const SelectNext = require('../lib/select-next');
 const dedent = require('dedent');
 
-describe("SelectNext", () => {
+xdescribe("SelectNext", () => {
   let workspaceElement, editorElement, editor;
 
   beforeEach(async () => {

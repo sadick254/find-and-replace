@@ -2,7 +2,7 @@
 
 const path = require("path");
 
-describe("FindView", () => {
+xdescribe("FindView", () => {
   let workspaceElement, editorView, editor, findView, activationPromise;
 
   function getFindAtomPanel() {

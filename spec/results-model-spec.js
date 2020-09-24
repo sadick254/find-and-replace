@@ -4,7 +4,7 @@ const path = require("path");
 const ResultsModel = require("../lib/project/results-model");
 const FindOptions = require("../lib/find-options");
 
-describe("ResultsModel", () => {
+xdescribe("ResultsModel", () => {
   let editor, resultsModel, reporterSpy;
 
   beforeEach(async () => {

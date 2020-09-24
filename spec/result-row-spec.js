@@ -8,7 +8,7 @@ const {
   ResultRowGroup
 } = require("../lib/project/result-row");
 
-describe("ResultRowGroup", () => {
+xdescribe("ResultRowGroup", () => {
   const lines = (new Array(18)).fill().map((x, i) => `line-${i}`)
   const rg = (i) => [[i, 0], [i, lines[i].length]]
   const testedRowIndices = [0, 7, 13, 16, 17]

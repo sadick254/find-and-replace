@@ -3,7 +3,7 @@ const EmbeddedEditorItem = require('./item/embedded-editor-item')
 const DeferredEditorItem = require('./item/deferred-editor-item');
 const UnrecognizedItem = require('./item/unrecognized-item');
 
-describe('Find', () => {
+xdescribe('Find', () => {
   describe('updating the find model', () => {
     beforeEach(async () => {
       atom.workspace.addOpener(EmbeddedEditorItem.opener)

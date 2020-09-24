@@ -10,7 +10,7 @@ const etch = require('etch');
 const {conditionPromise} = require('./async-spec-helpers');
 
 for (const ripgrep of [false, true]) {
-describe(`ProjectFindView (ripgrep=${ripgrep})`, () => {
+xdescribe(`ProjectFindView (ripgrep=${ripgrep})`, () => {
   const {stoppedChangingDelay} = TextBuffer.prototype;
   let activationPromise, searchPromise, editor, editorElement, findView,
       projectFindView, workspaceElement;
