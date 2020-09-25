@@ -304,6 +304,7 @@ describe('ResultsView', () => {
       expect(listView.element.querySelectorAll('li').length).toBeLessThan(resultsView.model.getPathCount() + resultsView.model.getMatchCount());
 
       await resultsView.moveToBottom();
+      console.log('and then this is called')
       expect(_.last(listView.element.querySelectorAll('.match-row'))).toHaveClass('selected');
       expect(listView.element.scrollTop).not.toBe(0);
 
